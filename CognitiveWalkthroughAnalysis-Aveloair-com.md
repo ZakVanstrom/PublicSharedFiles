@@ -1,8 +1,6 @@
 # Cognitive Walkthrough and Analysis - Aveloair.com
 
-# Cognitive Walkthrough and Analysis - # Aveloair.com# 
-
-# Process Description
+## Process Description
 1. Generate a complete list of steps required to complete the task.
 2. For each step, answer following questions, with an explanation when useful:
 	1. **Will the User know the next step?**
@@ -14,40 +12,41 @@
 	4. **If the correct action is performed, will the User see that progress is made toward the solution of the task?**
 3. Provide a summary of findings.
 
-# Task Parameters
+## Task Parameters
 ### Task Description
-- **Flight Selection.  **Go to Aveloair.com and get tickets for an upcoming flight.
+- **Flight Selection.** Go to Aveloair.com and get tickets for an upcoming flight.
 
-**Requirements**
-
-- From Fort Collins/Loveland, CO to Las Vegas, NV*
-*
+### Requirements
+- From Fort Collins/Loveland, CO to Las Vegas, NV
 - From Dec. 18th to Dec 22nd
 - Must have ‘Extra Legroom’
 - One (1) Bag: 28” x 20” x 14”
 
-**Preferences**
-
+### Preferences
 - Minimize Cost
 - Priority Boarding
 
 ## Environment Details
+
 ### System
-![Cognitive Walkthrough and Analysis - Aveloair-com](images/Cognitive%20Walkthrough%20and%20Analysis%20-%20Aveloair-com.png)
+
+<img width="259" alt="image" src="https://user-images.githubusercontent.com/48782399/139567785-57f0eb15-8e55-45c1-b89e-9f8c62a323bc.png">
 
 ### Browser
-Safari - 15.1 (17612.2.9.1.20)
-**### Date/Time**
-Oct. 29th, 2021. ~10pm EST.
-### Autofill Settings
-![Cognitive Walkthrough and Analysis - Aveloair-com-1](images/Cognitive%20Walkthrough%20and%20Analysis%20-%20Aveloair-com-1.png)
 
-### 
+Safari - 15.1 (17612.2.9.1.20)
+
+### Date/Time
+
+Oct. 29th, 2021. ~10pm EST.
+
+### Autofill Settings
+
+<img width="494" alt="image" src="https://user-images.githubusercontent.com/48782399/139567776-e487d011-0ecd-434b-ae71-a880f033eda2.png">
 
 # Cognitive Walkthrough
 ## Search Function
-1. **Load Home Page - ****aveloair.com****
-**
+1. **Load Home Page - aveloair.com**
 2. **Type ‘Fort Collins’ in Depart Box and click the ‘Fort Collins’ Result**
 	1. Yes, if they know why they’re visiting site.
 	2. Yes, it’s in an obvious location.
@@ -180,6 +179,7 @@ Oct. 29th, 2021. ~10pm EST.
 	4. No.
 
 ## Confirmation
+
 1. **Click ‘Next’ Button**
 
 	1. No, they still need to review to figure out what the site’s defaults were.
@@ -205,8 +205,8 @@ Oct. 29th, 2021. ~10pm EST.
 	3. Yes, the control makes sense.
 	4. Yes, pressing ‘Next’ loads the next section.
 
-## Payment Information**## 
-**
+## Payment Information
+
 1. **Enter payment information into Forum**
 	1. Yes. Strong similarity to other payment sites.
 	2. Yes.
@@ -220,15 +220,14 @@ Oct. 29th, 2021. ~10pm EST.
 	4. Yes, assuming above. Untested.
 
 ## Bugs & Minor Flaws Found during Walkthrough
+
 1. After some time away from ‘Terms and Conditions’ page, an Error shows “Session expired, please reload page”. 
 	1. Reloading page doesn’t resolve error.
 	2. Going to previous page doesn’t resolve error.
 	3. Going back to home page resolves error, but *loses all flight selection progress*
-
 2. Safari’s Password Manager automatically inserts ‘Debit / Credit Card Number’ and ‘Expiration Date’, but fails to complete ‘Name (As On Card)’
 3. Making a change in the ‘Seat Selection’ menu causes the browser to load from the top, resulting in the User losing their place.
 
-### 
 
 # Walkthrough Summary
 Aveloair.com’s interface is bright and simple, yet has some steps that felt out-of-place. Shared below are conclusions based from the above Cognitive Walkthrough, judged with the following design principles in mind:
@@ -238,9 +237,9 @@ Aveloair.com’s interface is bright and simple, yet has some steps that felt ou
 3. Reduce Cognitive Load
 4. Maintain UI Consistency
 
-## Step Summaries## 
+## Step Summaries
 
-**Search for Flight**
+### Search for Flight
 
 The search functionality on *aveloair.com**’s* homepage feels well-implemented. It mimics the same flow as many other sites, while reducing clutter. 
 
@@ -250,7 +249,7 @@ The search functionality on *aveloair.com**’s* homepage feels well-implemented
 2. The Search Box does not display when it is ready to search. 
 - Highlighting the Search Box when ready to search would help a User know when it’s time to search.
 
-**### Flight Selection**### 
+### Flight Selection
 
 1. The Toggle Options create confusion. They’re placed with suboptimal distancing that makes the selection of ‘Yes’ or ‘No’ challenging. Further, their options aren’t separated or  displayed as a Button. 
 - Turning the Toggle Options into Buttons would help the User see them quickly.
@@ -259,36 +258,38 @@ The search functionality on *aveloair.com**’s* homepage feels well-implemented
 3. The chart displayed has multiple ‘Unavailable’ type options, which are still available as buttons.
 - By disabling those buttons, a User wouldn’t be distracted into thinking they’re an available option.
 
-**### Seat Selection:**
+### Seat Selection
 1. Seat Selection is placed in a list of additional options, which forces the User to make a choice as to which requirement they want to fill next. 
 2. If they want ‘Extra-Legroom,’ this is the first opportunity a User has to make that preference (It wasn’t available in the search screen).
 3. The User may feel forced
 
-**### Bag Selection**
+### Bag Selection
 1. ‘Review Selections’ implies to Users that selections have already been made.
 2. Clicking ‘Confirm Selections’ only reduces the drop-down. The responsive flight-basket feels great as a User, but Confirm Details doesn’t *do *anything.
 
-**### Priority Boarding Selection**### 
+### Priority Boarding Selection 
 
 1. The Toggle Boxes feel more intuitive here, but still lack separation and buttony-ness.
 2. ‘Confirm Selections’ maintains consistency here, but still feels out of place as a User.
 
-**### Confirmation**
+### Confirmation
+
 1. Reviewing the Terms and Conditions is available as a link, but isn’t automatically displayed to the User.
 - Some Users may feel more comfortable if the T&C’s are displayed automatically, but don’t require scrolling before hitting ‘Agree’.
 
 2. Next doesn’t change when the ‘Agree’ toggle box is changed
 - Some Users feel more comfortable when the ‘Next’ Button is highlighted after the ‘Agree’ requirement is completed.
 
-**
-**
-**### Payment Information**
+### Payment Information
+
 1. The payment information box feels standard, rather than continuous with previous UI.
 2. Payment information is clear, but the final ‘Purchase’ Button doesn’t confirm if its the final step or if there’s a review point coming up.
+
+
+## Final Note
 
 Thank you engaging with and reviewing this cognitive walkthrough. I sincerely hope it can provide some insight on your User Experience from an external perspective.
 
 Regards,
 ### Zakyre Vanstrom
-Honors Computer Science, ASU 2022**
-**
+Honors Computer Science, ASU 2022
