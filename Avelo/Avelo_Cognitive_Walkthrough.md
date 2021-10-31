@@ -81,12 +81,11 @@ Oct. 29th, 2021. ~10pm EST.
 
 ## Flight Selection
 1. **Click the Toggle Button for desired departing flight**
-
 	1. Yes, but only after reading through other information on page. Not obvious.
 	2. No, the control is a section of the screen surrounding a toggle circle, but becomes obvious if you hover over that area.
 	3. Yes, it just requires a single click in that area.
 	4. Yes, after click the UI makes the completion of that step obvious.
-2. **Click the Toggle Button for desired returning ****flight**
+2. **Click the Toggle Button for desired returning flight**
 	1. No, as the previous step doesn’t indicate what the following step will be.
 	2. No, but they’ll have learned from the previous step.
 	3. Yes.
@@ -265,7 +264,6 @@ The search functionality on *aveloair.com**’s* homepage feels well-implemented
 ### Seat Selection
 1. Seat Selection is placed in a list of additional options, which forces the User to make a choice as to which requirement they want to fill next. 
 2. If they want ‘Extra-Legroom,’ this is the first opportunity a User has to make that preference (It wasn’t available in the search screen).
-3. The User may feel forced
 
 ### Bag Selection
 1. ‘Review Selections’ implies to Users that selections have already been made.
@@ -295,5 +293,7 @@ The search functionality on *aveloair.com**’s* homepage feels well-implemented
 Thank you engaging with and reviewing this cognitive walkthrough. I sincerely hope it can provide some insight on your User Experience from an external perspective.
 
 Regards,
-**Zakyre Vanstrom**
+
+**Zak Vanstrom**
+
 Honors Computer Science, ASU 2022
