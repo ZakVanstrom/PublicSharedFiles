@@ -13,18 +13,20 @@
 3. Provide a summary of findings.
 
 ## Task Parameters
+
 ### Task Description
-- **Flight Selection.** Go to Aveloair.com and get tickets for an upcoming flight.
+
+**Flight Selection.** Go to Aveloair.com and get tickets for an upcoming flight.
 
 ### Requirements
-- From Fort Collins/Loveland, CO to Las Vegas, NV
-- From Dec. 18th to Dec 22nd
-- Must have ‘Extra Legroom’
-- One (1) Bag: 28” x 20” x 14”
+1. From Fort Collins/Loveland, CO to Las Vegas, NV
+2. From Dec. 18th to Dec 22nd
+3. Must have ‘Extra Legroom’
+4. One (1) Bag: 28” x 20” x 14”
 
 ### Preferences
-- Minimize Cost
-- Priority Boarding
+1. Minimize Cost
+2. Priority Boarding
 
 ## Environment Details
 
@@ -45,7 +47,9 @@ Oct. 29th, 2021. ~10pm EST.
 <img width="494" alt="image" src="https://user-images.githubusercontent.com/48782399/139567776-e487d011-0ecd-434b-ae71-a880f033eda2.png">
 
 # Cognitive Walkthrough
+
 ## Search Function
+
 1. **Load Home Page - aveloair.com**
 2. **Type ‘Fort Collins’ in Depart Box and click the ‘Fort Collins’ Result**
 	1. Yes, if they know why they’re visiting site.
@@ -291,5 +295,5 @@ The search functionality on *aveloair.com**’s* homepage feels well-implemented
 Thank you engaging with and reviewing this cognitive walkthrough. I sincerely hope it can provide some insight on your User Experience from an external perspective.
 
 Regards,
-### Zakyre Vanstrom
+**Zakyre Vanstrom**
 Honors Computer Science, ASU 2022
